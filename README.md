@@ -17,7 +17,7 @@ const btcinfo = require('btcinfo-node');
 
 ```javasctipt
 let network="testnet"; // or null 
-const client = new btcinfo();
+const client = new btcinfo(network);
 
 ```
 
